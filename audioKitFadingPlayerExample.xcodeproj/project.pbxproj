@@ -13,6 +13,13 @@
 		4BA7EB671F2627DF00E6C5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB651F2627DF00E6C5D9 /* Main.storyboard */; };
 		4BA7EB691F2627DF00E6C5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB681F2627DF00E6C5D9 /* Assets.xcassets */; };
 		4BA7EB6C1F2627DF00E6C5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB6A1F2627DF00E6C5D9 /* LaunchScreen.storyboard */; };
+		4BA7EB7C1F2629FF00E6C5D9 /* sine-A-High.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB751F2629FF00E6C5D9 /* sine-A-High.m4a */; };
+		4BA7EB7D1F2629FF00E6C5D9 /* sine-A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB761F2629FF00E6C5D9 /* sine-A.m4a */; };
+		4BA7EB7E1F2629FF00E6C5D9 /* sine-B.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB771F2629FF00E6C5D9 /* sine-B.m4a */; };
+		4BA7EB7F1F2629FF00E6C5D9 /* sine-C-Sharp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB781F2629FF00E6C5D9 /* sine-C-Sharp.m4a */; };
+		4BA7EB801F2629FF00E6C5D9 /* sine-D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB791F2629FF00E6C5D9 /* sine-D.m4a */; };
+		4BA7EB811F2629FF00E6C5D9 /* sine-E.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB7A1F2629FF00E6C5D9 /* sine-E.m4a */; };
+		4BA7EB821F2629FF00E6C5D9 /* sine-G-Sharp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7EB7B1F2629FF00E6C5D9 /* sine-G-Sharp.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		4BA7EB681F2627DF00E6C5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA7EB6B1F2627DF00E6C5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BA7EB6D1F2627DF00E6C5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA7EB751F2629FF00E6C5D9 /* sine-A-High.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-A-High.m4a"; sourceTree = "<group>"; };
+		4BA7EB761F2629FF00E6C5D9 /* sine-A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-A.m4a"; sourceTree = "<group>"; };
+		4BA7EB771F2629FF00E6C5D9 /* sine-B.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-B.m4a"; sourceTree = "<group>"; };
+		4BA7EB781F2629FF00E6C5D9 /* sine-C-Sharp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-C-Sharp.m4a"; sourceTree = "<group>"; };
+		4BA7EB791F2629FF00E6C5D9 /* sine-D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-D.m4a"; sourceTree = "<group>"; };
+		4BA7EB7A1F2629FF00E6C5D9 /* sine-E.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-E.m4a"; sourceTree = "<group>"; };
+		4BA7EB7B1F2629FF00E6C5D9 /* sine-G-Sharp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sine-G-Sharp.m4a"; sourceTree = "<group>"; };
 		531D96D3314F910BC1CA4398 /* Pods-audioKitFadingPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioKitFadingPlayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-audioKitFadingPlayerExample/Pods-audioKitFadingPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
 		5D822D1F8D3B41019F309234 /* Pods-audioKitFadingPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioKitFadingPlayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-audioKitFadingPlayerExample/Pods-audioKitFadingPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +84,7 @@
 		4BA7EB601F2627DF00E6C5D9 /* audioKitFadingPlayerExample */ = {
 			isa = PBXGroup;
 			children = (
+				4BA7EB741F26299600E6C5D9 /* sines */,
 				4BA7EB611F2627DF00E6C5D9 /* AppDelegate.swift */,
 				4BA7EB631F2627DF00E6C5D9 /* ViewController.swift */,
 				4BA7EB651F2627DF00E6C5D9 /* Main.storyboard */,
@@ -78,6 +93,21 @@
 				4BA7EB6D1F2627DF00E6C5D9 /* Info.plist */,
 			);
 			path = audioKitFadingPlayerExample;
+			sourceTree = "<group>";
+		};
+		4BA7EB741F26299600E6C5D9 /* sines */ = {
+			isa = PBXGroup;
+			children = (
+				4BA7EB751F2629FF00E6C5D9 /* sine-A-High.m4a */,
+				4BA7EB761F2629FF00E6C5D9 /* sine-A.m4a */,
+				4BA7EB771F2629FF00E6C5D9 /* sine-B.m4a */,
+				4BA7EB781F2629FF00E6C5D9 /* sine-C-Sharp.m4a */,
+				4BA7EB791F2629FF00E6C5D9 /* sine-D.m4a */,
+				4BA7EB7A1F2629FF00E6C5D9 /* sine-E.m4a */,
+				4BA7EB7B1F2629FF00E6C5D9 /* sine-G-Sharp.m4a */,
+			);
+			name = sines;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		66D8834186C110811F307893 /* Frameworks */ = {
@@ -153,7 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA7EB6C1F2627DF00E6C5D9 /* LaunchScreen.storyboard in Resources */,
+				4BA7EB7C1F2629FF00E6C5D9 /* sine-A-High.m4a in Resources */,
+				4BA7EB801F2629FF00E6C5D9 /* sine-D.m4a in Resources */,
+				4BA7EB7F1F2629FF00E6C5D9 /* sine-C-Sharp.m4a in Resources */,
 				4BA7EB691F2627DF00E6C5D9 /* Assets.xcassets in Resources */,
+				4BA7EB7D1F2629FF00E6C5D9 /* sine-A.m4a in Resources */,
+				4BA7EB7E1F2629FF00E6C5D9 /* sine-B.m4a in Resources */,
+				4BA7EB811F2629FF00E6C5D9 /* sine-E.m4a in Resources */,
+				4BA7EB821F2629FF00E6C5D9 /* sine-G-Sharp.m4a in Resources */,
 				4BA7EB671F2627DF00E6C5D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
