@@ -101,6 +101,7 @@
 				4BA7EB5C1F2627DF00E6C5D9 /* Resources */,
 				5BC594AA63B4D2C631C1E704 /* [CP] Embed Pods Frameworks */,
 				FD5A333EA8052D7DF4F70C62 /* [CP] Copy Pods Resources */,
+				4BA7EB731F26295B00E6C5D9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -174,6 +175,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		4BA7EB731F26295B00E6C5D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/AudioKit.framework/fix-framework.sh\"";
 		};
 		5BC594AA63B4D2C631C1E704 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -379,6 +393,7 @@
 				4BA7EB721F2627DF00E6C5D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
